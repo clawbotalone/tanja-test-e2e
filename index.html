@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tanja Test E2E</title>
+  <meta name="description" content="Predstavitvena stran za Tanja Test E2E v kraju Ljubljana.">
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; background:#111827; color:#f9fafb; }
+    .wrap { max-width:1100px; margin:0 auto; padding:48px 24px; }
+    .hero { padding:72px 0 40px; }
+    .badge { display:inline-block; background:#ec4899; color:white; padding:8px 14px; border-radius:999px; font-size:14px; }
+    h1 { font-size:56px; line-height:1.05; margin:18px 0 12px; }
+    p { color:#d1d5db; font-size:18px; line-height:1.7; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:18px; margin-top:32px; }
+    .card { background:#1f2937; border:1px solid #374151; padding:22px; border-radius:20px; }
+    a { color:#f9a8d4; }
+    .mobile-menu { display:none; }
+    @media (max-width: 700px) { h1 { font-size:38px; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <span class="badge">PregoSystems demo</span>
+      <h1>Tanja Test E2E</h1>
+      <p>Test Lead v kraju Ljubljana. Elegantna predstavitvena stran s poudarkom na storitvah, lokaciji in hitrem kontaktu.</p>
+    </section>
+    <section class="grid">
+      <div class="card"><h2>Lokacija</h2><p>Testna ulica 1</p></div>
+      <div class="card"><h2>Kontakt</h2><p>+386 1 000 000<br>Email v pripravi</p></div>
+      <div class="card"><h2>Zakaj ta stran</h2><p>Jasen prvi vtis, boljša najdljivost in preprost način za predstavitev storitev.</p></div>
+    </section>
+    <section class="card" style="margin-top:24px;"><h2>Opombe</h2><p>Temporary E2E watcher test. Not a real sales lead. Delete after verification.</p></section>
+  </div>
+    <!-- PREVIEW BADGE — remove when client pays -->
+    <div style="position:fixed;bottom:20px;right:20px;background:rgba(200,127,26,0.9);color:#fff;padding:14px 32px;border-radius:12px;font-family:sans-serif;font-size:18px;font-weight:600;letter-spacing:2px;z-index:9999;pointer-events:none;backdrop-filter:blur(4px);box-shadow:0 2px 12px rgba(0,0,0,0.3);">PREDOGLED</div>
+</body>
+</html>
